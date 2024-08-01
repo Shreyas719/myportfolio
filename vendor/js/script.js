@@ -7,3 +7,13 @@ $(window).on("scroll", function(){
         $('body').removeClass('fixed-header');
     }
 });
+
+// Document Ready
+$(document).ready(function(){
+    // Typing Animation
+    new Typed('#type-it', {
+        strings: ['Web Developer', 'Fullstack Developer'],
+        typeSpeed: 100,
+        loop:true
+      });
+});
