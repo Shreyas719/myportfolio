@@ -139,8 +139,12 @@ a:hover{
         -ms-transform: translateY(-10px) rotate(-45deg);
         -o-transform: translateY(-10px) rotate(-45deg);
 }
-
 }
+
+.fixed-header .main-header{
+    background: #000;
+}
+
 .colored-btn{
     padding: 8px 20px;
     border: 2px solid var(--primary-color);
@@ -276,28 +280,28 @@ main{
 .anim-elements .anim-element:nth-child(2){
     bottom: 15%;
     left: 45%;
-    color: var(--primary-color);
+    color: cornflowerblue;
     animation: aniTwo 13s infinite alternate;
     -webkit-animation: aniTwo 13s infinite alternate;
 }
 .anim-elements .anim-element:nth-child(3){
     bottom: 20%;
     left: 30%;
-    color: var(--primary-color);
+    color: #4F5B93;
     animation: aniThree 13s infinite alternate;
     -webkit-animation: aniThree 13s infinite alternate;
 }
 .anim-elements .anim-element:nth-child(4){
     bottom: 15%;
     right: 25%;
-    color: var(--primary-color);
+    color: #7952b3;
     animation: aniFour 13s infinite alternate;
     -webkit-animation: aniFour 13s infinite alternate;
 }
 .anim-elements .anim-element:nth-child(5){
     top: 18%;
     right: 25%;
-    color: var(--primary-color);
+    color: black;
     animation: aniThree 13s infinite alternate;
     -webkit-animation: aniThree 13s infinite alternate;
 }
