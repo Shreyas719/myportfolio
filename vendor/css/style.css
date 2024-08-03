@@ -178,6 +178,24 @@ a:hover{
 .bg-dark{
     background-color: var(--dark-color) !important;
 }
+.bg-1{
+    background-color: #9BD3D0;
+}
+.bg-2{
+    background-color: #FEC447;
+}
+.bg-3{
+    background-color: #FECCB5;
+}
+.bg-4{
+    background-color: #92B5FF;
+}
+.bg-5{
+    background-color: #C4D39B;
+}
+.bg-6{
+    background-color: #D2CEFF;
+}
 main{
     position: relative;
     z-index: 1;
@@ -407,5 +425,24 @@ main{
     line-height: 1;
     display: flex;
     align-items: center;
-    
+    justify-content: center;
+    border: 2px solid var(--dark-color);
+    background: #fff;
+    color: var(--dark-color);
+    font-size: 32px;
+}
+.feature-box .content{
+    max-width: calc(100% - 70px);
+    padding-left: 20px;
+}
+.feature-box h5{
+    font-size: 24px;
+    color: var(--dark-color);
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+@media(max-width: 767px){
+    .feature-box{
+
+    }
 }
