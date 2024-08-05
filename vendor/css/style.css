@@ -196,6 +196,18 @@ a:hover{
 .bg-6{
     background-color: #D2CEFF;
 }
+.bg-7{
+    background-color: #F9A4A5;
+}
+.bg-8{
+    background-color: #eabdbd;
+}
+.bg-9{
+    background-color: #E1F669;
+}
+.bg-10{
+    background-color: #98DEE1;
+}
 main{
     position: relative;
     z-index: 1;
