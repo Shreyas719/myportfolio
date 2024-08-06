@@ -16,21 +16,25 @@ $(document).ready(function(){
         typeSpeed: 100,
         loop:true
       });
-});
+
 // Owl-Carousel
 $('.owl-carousel').owlCarousel({
     loop:true,
-    margin:10,
-    nav:true,
+    items:2,
+    margin:30,
+    autoplay:true,
+    autoplayTimeout:2000,
     responsive:{
         0:{
             items:1
         },
-        600:{
-            items:3
+        900:{
+            items:2
         },
-        1000:{
-            items:5
-        }
+        
     }
-})
+});
+
+// One Page Scroll
+$.scrollIt();
+});
