@@ -36,5 +36,8 @@ $('.owl-carousel').owlCarousel({
 });
 
 // One Page Scroll
-$.scrollIt();
+$.scrollIt({   
+    easing: 'linear',      // the easing function for animation       
+    topOffset: -40          // offste (in px) for fixed top navigation
+  });
 });
